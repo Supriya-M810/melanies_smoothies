@@ -1,6 +1,6 @@
 # Import python packages
 import streamlit as st
-from snowflake.snowpark.context import connection
+from snowflake.snowpark.context import cnx
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
